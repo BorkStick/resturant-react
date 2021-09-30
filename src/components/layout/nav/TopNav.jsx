@@ -3,11 +3,12 @@ import "./TopNav.css";
 
 export default function TopNav() {
   return (
-    <div className="pb-5">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top d-flex">
+    <div className="" >
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="top-nav">
         <div class="container-fluid">
+          {/* <div className="row"> */}
           <a class="navbar-brand" href="/">
-            BorkBurger
+            BorkTaco
           </a>
           <button
             class="navbar-toggler"
@@ -20,7 +21,7 @@ export default function TopNav() {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse d-flex" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link " aria-current="page" href="/menu">
@@ -43,7 +44,7 @@ export default function TopNav() {
                 </a>
               </li>
             </ul>
-            <button class="btn btn-success me-auto" type="submit">
+            <button class="btn btn-light float-right" type="submit">
               Start Order
             </button>
           </div>

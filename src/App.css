@@ -3,7 +3,9 @@
 }
 
 body {
-  min-height: 200vh;
+  position: relative;
+  min-height: 100vh;
+  padding-top: 75px;
 }
 
 a {
