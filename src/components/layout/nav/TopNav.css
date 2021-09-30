@@ -1,3 +1,9 @@
 #top-nav {
     min-height: 75px;
+    
+}
+
+#top-nav ul{
+    font-weight: 800;
+    color: #fff;
 }

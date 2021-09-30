@@ -1,0 +1,9 @@
+.jumbotron {
+    color: white;
+    background-image: url("https://source.unsplash.com/featured?tacos");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+    width: 100%;
+  }
